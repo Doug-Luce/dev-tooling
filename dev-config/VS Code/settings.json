@@ -1,0 +1,156 @@
+{
+  "window.openFoldersInNewWindow": "on", //open folders in new window by default
+  "files.trimTrailingWhitespace": true,
+  "editor.fontSize": 15,
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.detectIndentation": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+  },
+  "sassFormat.indent": 2,
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx"
+  },
+  "eslint.validate": [
+
+    {
+      "language":"vue",
+      "autoFix":true
+  },
+  {
+      "language":"html",
+      "autoFix":true
+  },
+  {
+      "language":"javascript",
+      "autoFix":true
+  },
+  {
+      "language":"typescript",
+      "autoFix":true
+  },
+  {
+    "language":"typescriptreact",
+    "autoFix":true
+  }
+  ],
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "emmet.triggerExpansionOnTab": true,
+  "gitlens.keymap": "alternate",
+  "workbench.editor.labelFormat": "short",
+  "workbench.editor.showTabs": true,
+  "gitlens.advanced.messages": {
+    "suppressCommitHasNoPreviousCommitWarning": false,
+    "suppressCommitNotFoundWarning": false,
+    "suppressFileNotUnderSourceControlWarning": false,
+    "suppressGitVersionWarning": false,
+    "suppressLineUncommittedWarning": false,
+    "suppressNoRepositoryWarning": false,
+    "suppressResultsExplorerNotice": false,
+    "suppressShowKeyBindingsNotice": true,
+    "rewrap.wrappingColumn": 100,
+  },
+  "gitlens.historyExplorer.enabled": true,
+  "yaml.format.enable": true,
+  "yaml.customTags": [
+    "!Equals sequence",
+    "!FindInMap sequence",
+    "!GetAtt",
+    "!GetAZs",
+    "!ImportValue",
+    "!Join sequence",
+    "!Ref",
+    "!Select sequence",
+    "!Split sequence",
+    "!Sub"
+  ],
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "rewrap.autoWrap.enabled": true,
+  "rewrap.wrappingColumn": 100,
+  "editor.fontLigatures": true,
+  "editor.fontFamily": "'FiraCode Nerd Font', Roboto, Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontWeight": "500",
+  "workbench.colorTheme": "One Dark Pro",
+  "breadcrumbs.enabled": true,
+  "search.showLineNumbers": true,
+  "workbench.editor.highlightModifiedTabs": true,
+  "gitlens.views.fileHistory.enabled": true,
+  "gitlens.views.lineHistory.enabled": true,
+  "search.exclude": {
+    "**/coverage": true,
+    "**/node_modules": true,
+    "**/build": true,
+    "**/.history": true,
+  },
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "terminal.integrated.macOptionClickForcesSelection": true,
+  "editor.suggest.snippetsPreventQuickSuggestions": false,
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "files.exclude": {
+    "**/.history": true,
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.renderWhitespace": "boundary",
+  "vsicons.dontShowNewVersionMessage": true,
+  "sonarlint.rules": {
+    "javascript:S1854": {
+      "level": "off"
+    }
+  },
+  "debug.node.useV3": true,
+  "debug.console.fontSize": 14,
+  "debug.inlineValues": true,
+  "java.semanticHighlighting.enabled": true,
+  "java.jdt.ls.vmargs": "-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -javaagent:/Users/dluce/development/lombok.jar",
+  "java.project.importOnFirstTimeStartup": "automatic",
+  "editor.quickSuggestionsDelay": 10,
+  "workbench.sideBar.location": "left",
+  "editor.codeLens": true,
+  "editor.mouseWheelZoom": true,
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": false,
+    "strings": false
+  },
+  "editor.suggestOnTriggerCharacters": true,
+  "cSpell.userWords": [
+    "Dhhiiss",
+    "Dropzone",
+    "Stormcenters",
+    "stringifier",
+    "thematics"
+  ],
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.lineHeight": 0.7,
+  "workbench.iconTheme": "vscode-icons",
+  "todo-tree.tree.showScanModeButton": false,
+  "workbench.editorAssociations": [
+    {
+      "viewType": "default",
+      "filenamePattern": "*.html"
+    },
+    {
+      "viewType": "jupyter.notebook.ipynb",
+      "filenamePattern": "*.ipynb"
+    }
+  ],
+  "python.pythonPath": "/usr/local/bin/python3",
+  "hediet.vscode-drawio.local-storage": "eyIuZHJhd2lvLWNvbmZpZyI6IntcImxhbmd1YWdlXCI6XCJcIixcImN1c3RvbUZvbnRzXCI6W10sXCJsaWJyYXJpZXNcIjpcImdlbmVyYWxcIixcImN1c3RvbUxpYnJhcmllc1wiOltcIkwuc2NyYXRjaHBhZFwiXSxcInBsdWdpbnNcIjpbXSxcInJlY2VudENvbG9yc1wiOltdLFwiZm9ybWF0V2lkdGhcIjpcIjI0MFwiLFwiY3JlYXRlVGFyZ2V0XCI6ZmFsc2UsXCJwYWdlRm9ybWF0XCI6e1wieFwiOjAsXCJ5XCI6MCxcIndpZHRoXCI6ODUwLFwiaGVpZ2h0XCI6MTEwMH0sXCJzZWFyY2hcIjp0cnVlLFwic2hvd1N0YXJ0U2NyZWVuXCI6dHJ1ZSxcImdyaWRDb2xvclwiOlwiI2QwZDBkMFwiLFwiZGFya0dyaWRDb2xvclwiOlwiIzZlNmU2ZVwiLFwiYXV0b3NhdmVcIjp0cnVlLFwicmVzaXplSW1hZ2VzXCI6bnVsbCxcIm9wZW5Db3VudGVyXCI6MCxcInZlcnNpb25cIjoxOCxcInVuaXRcIjoxLFwiaXNSdWxlck9uXCI6ZmFsc2UsXCJ1aVwiOlwiXCJ9In0=",
+  "emmet.showExpandedAbbreviation": "inMarkupAndStylesheetFilesOnly",
+}
