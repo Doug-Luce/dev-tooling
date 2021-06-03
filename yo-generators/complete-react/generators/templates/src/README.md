@@ -1,0 +1,1 @@
+- Typescript application generator with preferred defaults
